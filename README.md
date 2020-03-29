@@ -7,5 +7,5 @@ Recommended Editor: mu editor
 
 <hr/>
 
-![alt text](https://github.com/penroselearning/trex_run_code2xl/raw/master/game_screenshot.png "Game Screenshot")
+<img src="https://github.com/penroselearning/trex_run_code2xl/raw/master/game_screenshot.png alt="Game Screenshot" width = "80%" height="80%"/>
 
