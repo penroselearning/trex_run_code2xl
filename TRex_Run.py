@@ -71,4 +71,4 @@ def update():
 
 def on_key_down():
     if keyboard.SPACE:
-        trex.above_ground = JUMP# Write your code here :-)
+        trex.above_ground = JUMP
