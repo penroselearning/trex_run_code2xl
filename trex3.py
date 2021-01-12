@@ -6,6 +6,7 @@
 ## Since the update function runs 60 times each second, the score increases by 1/60
 ## Display the score with just two decimal places
 ## if the trex collides with the cactus, the score is reset to zero
+## create a sound effect when the TREX collides
 #########
 
 import random
@@ -69,3 +70,4 @@ def update():
     # if the trex collides with the cactus, the score is reset to 0
     if trex.colliderect(cactus):
         score = 0
+        sounds.point.play()
