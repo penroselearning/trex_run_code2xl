@@ -5,6 +5,7 @@
 ## Change the position of the Cactus using the speed value
 ## When the cactus disappears from the screen bring another random cactus to original position
 ## Since it is random, the same cactus could be repeated
+## Each time a new cactus displays, its speed of movement increases
 #########
 
 import random
@@ -36,6 +37,7 @@ def draw():
     cactus.draw()
 
 def update():
+    global speed
     # Move the cactus to its left
     cactus.left -= speed
     
@@ -44,3 +46,6 @@ def update():
     if cactus.left < -10:
         cactus.pos = (544,FLOOR)
         cactus.image = random.choice(cactuses)
+        
+        # increases the speed each time a new cactus gets displayed
+        speed += 0.1
