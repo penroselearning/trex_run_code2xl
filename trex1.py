@@ -1,6 +1,6 @@
 # #########
 ## Step 1
-## Download the required resources for the game (images)
+## Download the required resources for the game (images and sound)
 ## Defining the Height and Width of the Game
 ## Setting the vertical FLOOR Position where the Cactus and T-Rex will be displayed
 ## Building a List of Cactus file names
